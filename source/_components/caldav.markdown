@@ -131,6 +131,12 @@ custom_calendars:
         Regular expression for filtering the events based on
         the content of their summary, description or location.
       type: string
+verify_ssl:
+  required: false
+  description: >
+    If you are using self-signed certificates, set this option to false.
+    This can be a security risk! Only use this option if you know what you are doing.
+  type: boolean
 {% endconfiguration %}
 
 ### {% linkable_title Sensor attributes %}
